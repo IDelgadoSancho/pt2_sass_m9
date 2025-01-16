@@ -1,0 +1,32 @@
+/* images */
+#div1 {
+    margin: 0 auto;
+    width: 20%;
+    height: auto;
+}
+
+
+#div3 {
+    width: 100%;
+    height: auto;
+}
+
+/* fluid */
+.image-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* portrait */
+.image-portrait {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* centered */
+.image-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

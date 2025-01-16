@@ -1,0 +1,21 @@
+/* normalization */
+
+.html body {
+    background-color: $bg-dark;
+
+    &:focus-within {
+        scroll-behavior: smooth;
+    }
+
+    .ds-base {
+        font-family: $font-family;
+        font-size: 16px;
+        line-height: 1em;
+        color: $black;
+    }
+
+    * {
+        box-sizing: border-box;
+        font: inherit;
+    }
+}

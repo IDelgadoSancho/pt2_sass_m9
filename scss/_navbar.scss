@@ -1,0 +1,20 @@
+/* navbar variables */
+$navbar-border: none;
+$navbar-border-radius: 5px;
+$navbar-brand-font-size: '16';
+$navbar-font: 'bold';
+$navbar-color: #002ec7f8;
+
+/* navbar*/
+.navbar {
+    padding: 10px;
+    background-color: $navbar-color;
+    border: $navbar-border;
+    border-radius: $navbar-border-radius;
+}
+
+.navbar-item {
+    color: white;
+    text-decoration: none;
+}
+

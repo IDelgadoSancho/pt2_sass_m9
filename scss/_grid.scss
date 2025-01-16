@@ -1,0 +1,13 @@
+/* Grid */
+
+.grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 1em;
+
+    * {
+        width: 100px;
+        height: auto;
+    }
+}

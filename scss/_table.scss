@@ -1,0 +1,30 @@
+/*table 1*/
+.table-1 {
+    min-width: 250px;
+    padding: 10px;
+    border: 1px solid red;
+    text-align: center;
+
+    td {
+        border: 1px solid red;
+    }
+}
+
+.table-2 {
+    min-width: 250px;
+    padding: 10px;
+    text-align: center;
+
+    td {
+        border: 1px solid rgb(56, 56, 56);
+
+    }
+
+    tr:nth-child(even) {
+        background-color: #858585
+    }
+
+    tr:nth-child(odd) {
+        background-color: #e0e0e0
+    }
+}

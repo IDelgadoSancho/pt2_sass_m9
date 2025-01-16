@@ -1,0 +1,64 @@
+/* forms*/
+
+/* submit */
+$submit-border: none;
+$submit-rad: 5px;
+$submit-padding: 7px 20px;
+$color-submit: #25bb81;
+$color-font: #ffffff;
+
+.form-horizontal {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+
+    label {
+        margin: 5px;
+        max-width: 5em;
+    }
+
+    input {
+        max-width: 100%;
+        min-width: 30px;
+    }
+
+    input[type="submit"] {
+        background-color: $color-submit;
+        color: $color-font;
+        border: $submit-border;
+        border-radius: $submit-rad;
+        padding: $submit-padding;
+        min-width: 10%;
+        margin: 5px;
+        margin-left: 1em;
+        cursor: pointer;
+    }
+}
+
+.form-vertical {
+    border: 1px solid black;
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    label {
+        width: 100%;
+    }
+
+    input[type="submit"] {
+        background-color: $color-submit;
+        color: $color-font;
+        border: $submit-border;
+        border-radius: $submit-rad;
+        padding: $submit-padding;
+        min-width: 10%;
+        margin-left: 1em;
+        cursor: pointer;
+    }
+}

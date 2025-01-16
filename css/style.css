@@ -1,0 +1,209 @@
+/* variables */
+/* buttons clases */
+.button-base {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: "16px";
+}
+
+.button-primary {
+  background-color: rgb(32, 32, 32);
+  color: #ffffff;
+}
+.button-primary:hover {
+  background: rgb(6.5, 6.5, 6.5);
+}
+
+.button-secondary {
+  background-color: rgb(29, 29, 219);
+  color: #ffffff;
+}
+.button-secondary:hover {
+  background: rgb(23.0362903226, 23.0362903226, 173.9637096774);
+}
+
+.button-success {
+  background-color: rgb(35, 192, 35);
+  color: #000;
+}
+.button-success:hover {
+  background: rgb(27.1365638767, 148.8634361233, 27.1365638767);
+}
+
+.button-danger {
+  background-color: rgb(167, 29, 29);
+  color: #ffffff;
+}
+.button-danger:hover {
+  background: rgb(123.5459183673, 21.4540816327, 21.4540816327);
+}
+
+.button-warning {
+  background-color: rgb(228, 228, 34);
+  color: #000;
+}
+.button-warning:hover {
+  background: rgb(188.0282258065, 188.0282258065, 22.9717741935);
+}
+
+/* forms*/
+/* submit */
+.form-horizontal {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+.form-horizontal label {
+  margin: 5px;
+  max-width: 5em;
+}
+.form-horizontal input {
+  max-width: 100%;
+  min-width: 30px;
+}
+.form-horizontal input[type=submit] {
+  background-color: #25bb81;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 20px;
+  min-width: 10%;
+  margin: 5px;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.form-vertical {
+  border: 1px solid black;
+  max-width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.form-vertical label {
+  width: 100%;
+}
+.form-vertical input[type=submit] {
+  background-color: #25bb81;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 20px;
+  min-width: 10%;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 1em;
+}
+.grid * {
+  width: 100px;
+  height: auto;
+}
+
+/* images */
+#div1 {
+  margin: 0 auto;
+  width: 20%;
+  height: auto;
+}
+
+#div3 {
+  width: 100%;
+  height: auto;
+}
+
+/* fluid */
+.image-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* portrait */
+.image-portrait {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+/* centered */
+.image-centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* navbar variables */
+/* navbar*/
+.navbar {
+  padding: 10px;
+  background-color: rgba(0, 46, 199, 0.9725490196);
+  border: none;
+  border-radius: 5px;
+}
+
+.navbar-item {
+  color: white;
+  text-decoration: none;
+}
+
+/* normalization */
+.html body {
+  background-color: darkgrey;
+}
+.html body:focus-within {
+  scroll-behavior: smooth;
+}
+.html body .ds-base {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1em;
+  color: rgb(32, 32, 32);
+}
+.html body * {
+  box-sizing: border-box;
+  font: inherit;
+}
+
+/*table 1*/
+.table-1 {
+  min-width: 250px;
+  padding: 10px;
+  border: 1px solid red;
+  text-align: center;
+}
+.table-1 td {
+  border: 1px solid red;
+}
+
+.table-2 {
+  min-width: 250px;
+  padding: 10px;
+  text-align: center;
+}
+.table-2 td {
+  border: 1px solid rgb(56, 56, 56);
+}
+.table-2 tr:nth-child(even) {
+  background-color: #858585;
+}
+.table-2 tr:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+
+/*# sourceMappingURL=style.css.map */

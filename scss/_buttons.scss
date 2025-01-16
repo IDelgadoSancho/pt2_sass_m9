@@ -1,0 +1,65 @@
+$button-color-light: #ffffff;
+$button-color-dark: #000;
+$primary: $black;
+$secondary: $blue;
+$success: $green;
+$danger: $red;
+$warning: $yellow;
+
+
+/* buttons clases */
+.button-base {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: "16px";
+}
+
+.button-primary {
+    background-color: $primary;
+    color: $button-color-light;
+
+    &:hover {
+        background: darken($primary, 10%);
+    }
+}
+
+.button-secondary {
+    background-color: $secondary;
+    color: $button-color-light;
+
+    &:hover {
+        background: darken($secondary, 10%);
+    }
+}
+
+.button-success {
+    background-color: $success;
+    color: $button-color-dark;
+
+    &:hover {
+        background: darken($success, 10%);
+    }
+}
+
+.button-danger {
+    background-color: $danger;
+    color: $button-color-light;
+
+    &:hover {
+        background: darken($danger, 10%);
+    }
+}
+
+.button-warning {
+    background-color: $warning;
+    color: $button-color-dark;
+
+    &:hover {
+        background: darken($warning, 10%);
+    }
+}
